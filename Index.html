@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div id="shopping">
+                <i class="fas fa-cart-plus"><sup id="items-added"></sup></i>
+            </div>
+            <div class="images">
+                <h2>BOOK NAME</h2>
+                <div class="slider"><img id="big-image" src="images/bookimg.jpg" alt="" height="270px" style=" width="100px""></div>
+                <div id="img-slider" class="img-slider">
+                    <div class="imgs"><img id="Nomos1" src="images/bookimg.jpg" alt=""></div>
+                    <div class="imgs"><img id="Nomos2" src="images/bookimg.jpg" alt=""></div>
+                    <div class="imgs"><img id="Nomos3" src="images/bookimg.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="infos">
+                <h1>Book Name Here</h1>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">
+                    <h3>200$</h3>
+                    <h3>235$</h3>
+                </div>
+                <div id="more-infos">
+                    <h5 class="choose">Description</h5>
+
+
+                </div>
+                <div id="info-content">
+                    <p  class="paragraph" style="display: block;">BOOK......................DESCRIPTION</p>
+                </div>
+                <p><b>Interval :</b></p>
+
+   <div class="form-check-inline">
+     <label class="form-check-label" for="radio1">
+       <h6><input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>One Week
+     </label></h6>
+   </div>
+   <div class="form-check-inline">
+     <label class="form-check-label" for="radio2">
+       <h6><input type="radio" class="form-check-input" id="radio1" name="optradio" value="option2">Two Week
+     </label></h6>
+   </div>
+   <div class="form-check-inline">
+     <label class="form-check-label" for="radio2">
+      <h6> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option2">Three Week
+     </label></h6>
+   </div>
+                <div class="quantity">
+
+                    <h3>QUANTITY</h3>
+                <input type="number" name="items" id="counter" min="1" value="1">
+            </div>
+                <div class="buttons">
+                    <button id="add-to-cart"><i class="fas fa-shopping-cart"></i>SELL NOW</button>
+                    <button>BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
